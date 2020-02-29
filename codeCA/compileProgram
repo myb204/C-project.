@@ -1,0 +1,3 @@
+gcc -ansi -I./ -c dCLinkedList.c -o dCLinkedList.o
+gcc -ansi -I./ -c codeMessage.c -o codeMessage.o
+gcc codeMessage.o dCLinkedList.o -o codeMessage
